@@ -1,3 +1,6 @@
+import gui.MainWindow;
+import gui.Map;
+
 public class Simulation {
     /*
     Главный класс приложения, включает в себя:
@@ -11,4 +14,7 @@ nextTurn() - просимулировать и отрендерить один �
 startSimulation() - запустить бесконечный цикл симуляции и рендеринга
 pauseSimulation() - приостановить бесконечный цикл симуляции и рендеринга
      */
+    public static void main(String[] args) throws Exception{
+        MainWindow mainWindow = new MainWindow();
+    }
 }
